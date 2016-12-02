@@ -1,0 +1,39 @@
+html {
+	background-image: url(http://charpente-heid.com/gifs/fond.jpg)
+}
+h1 {
+	font-family: sans-serif;
+	text-decoration: underline;
+}
+p {
+	color: silver;
+	font-size: 15px;
+	font-family: sans-serif;
+	
+}
+nav ul {        
+	list-style-type:none;
+    padding: 5px;
+    margin: 0px;
+    text-align:center;
+    top:10%;
+    background: silver;
+    margin-left:0%;
+    margin-right: 0%;
+    margin-top: 0%;
+        
+}
+nav li {        
+	display:inline;
+    text-align:center;
+
+        
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+	margin: 0 30px;
+	border-radius: solid 2px;
+	border-color: grey;
+}
+

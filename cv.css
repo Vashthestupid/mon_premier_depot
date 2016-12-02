@@ -21,26 +21,28 @@ h3{
 }
 
 h4 {
-	color: white;
+	color: silver;
 	text-align: left;
 	margin-left: 30px;
 	font-family: sans-serif;
 }
 
 #formation {
-	color: white;
+	color: silver;
 	text-align: left;	
 	font-family: sans-serif;
 	font-size: 15px;
+	top: 20px;
+
 }
 #competences {
-	color: white;
+	color: silver;
 	text-align: left;
 	font-family: sans-serif;
 	font-size: 15px;
 }
 #experience {
-	color: white;
+	color: silver;
 	text-align: left;
 	font-family: sans-serif;
 	font-size: 15px;
@@ -57,22 +59,39 @@ h4 {
 }
 .mail{
 	margin-left: 30px;
-	color: white;
+	color: silver;
 	font-weight: bold;
 	font-family: sans-serif;
 }
-#footer{
-	background-color: #808080;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	opacity:0.9;
-	text-align: center;
-	padding: -30px;
-	color: #808080;	
-	font-family: sans-serif;	
+	
+#footer {
+	text-align: center;	
 }
+nav ul {        
+	list-style-type:none;
+    padding: 5px;
+    margin: 0px;
+    text-align:center;
+    top:10%;
+    background: silver;
+    margin-left:0%;
+    margin-right: 0%;
+    margin-top: 0%;
+        
+}
+nav li {        
+	display:inline;
+    text-align:center;
 
+        
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+	margin: 0 30px;
+	border-radius: solid 2px;
+	border-color: grey;
+}
 
 
 
