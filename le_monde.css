@@ -1,0 +1,45 @@
+h1 {
+	color: silver;
+	text-align: center;
+	background-color: black;
+
+}
+@media (min-width: 768px) {
+
+  .container {
+
+    width: 750px;
+
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .container {
+
+    width: 970px;
+
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .container {
+
+    width: 1170px;
+
+  }
+
+}
+.col-md-5 {
+	margin-left: 7%;
+	margin-top: 3%;
+}
+.col-md-3 {
+	margin-left: 7%;
+}
+p {
+	margin-top: -6%;
+}
